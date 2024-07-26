@@ -44,7 +44,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans     &trans                &trans                 &trans         &trans           &trans
 &kp F1      &kp EXCL      &kp F3        &kp F4        &kp F5        &kp F6                           &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS       &kp KP_MULTIPLY  &kp KP_MINUS
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp AT     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_EQUAL   &kp RPAR         &kp TILDE
+&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp AT     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL      &kp RPAR         &kp TILDE
 &kp ESC     &trans        &trans        &trans        &trans        &trans         &trans    &trans  &kp CARET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp PIPE         &kp BACKSLASH
                                         &trans        &kp EQUAL     &kp BACKSPACE  &trans    &mo 3   &trans     &trans                &trans
             >;
