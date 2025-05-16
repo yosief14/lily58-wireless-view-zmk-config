@@ -42,11 +42,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &trans     &trans                &trans                 &trans         &trans           &trans
-&kp F1      &kp LG(Q)     &kp F3        &kp F4        &kp F5        &kp F6                                      &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS       &kp KP_MULTIPLY  &kp KP_MINUS
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                                   &kp AT     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL      &kp RPAR         &kp TILDE
-&kp ESC     &trans        &trans        &trans        &trans        &trans         &trans    &kp LC(LS(RIGHT))  &tog 3     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp PIPE         &kp BACKSLASH
-                                        &trans        &kp EQUAL     &kp BACKSPACE  &trans    &mo 3              &trans     &trans                &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &bt BT_CLR_ALL  &trans                &trans                 &trans         &trans           &trans
+&kp F1      &kp LG(Q)     &kp F3        &kp F4        &kp F5        &kp F6                                      &kp UNDER       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS       &kp KP_MULTIPLY  &kp KP_MINUS
+&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                                   &kp AT          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL      &kp RPAR         &kp TILDE
+&kp ESC     &trans        &trans        &trans        &trans        &trans         &trans    &kp LC(LS(RIGHT))  &tog 3          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp PIPE         &kp BACKSLASH
+                                        &trans        &kp EQUAL     &kp BACKSPACE  &trans    &mo 3              &trans          &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
